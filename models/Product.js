@@ -40,6 +40,28 @@ Product.init(
     },
   },
   {
+    hooks: {
+      beforeCreate: async (product) => {
+        try {
+          product.price = Number(product.price);
+          product.stock = Number(product.stock);
+          return product
+
+        } catch (err) {
+          throw new Error(err.message)
+        }
+      },
+      beforeUpdate: async (product) => {
+        try {
+          product.price = Number(product.price);
+          product.stock = Number(product.stock);
+          return product
+
+        } catch (err) {
+          throw new Error(err.message)
+        }
+      }
+    },
     sequelize,
     timestamps: false,
     freezeTableName: true,
