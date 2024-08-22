@@ -35,11 +35,6 @@ ProductTag.belongsTo(Tag, {
   foreignKey: 'tag_id',
 });
 
-
-ProductTag.belongsTo(ProductTag, {
-  foreignKey: 'tag_id',
-});
-
 export {
   Product,
   Category,
