@@ -1,0 +1,15 @@
+# Mac
+.DS_Store
+
+# dependencies
+**/node_modules
+node_modules/
+
+# env
+**/.env
+.env
+
+# SQLs
+**/*.sql
+*.sql
+db
