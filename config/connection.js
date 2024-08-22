@@ -1,6 +1,8 @@
-require('dotenv').config();
+import { configDotenv } from 'dotenv';
 
-const Sequelize = require('sequelize');
+configDotenv();
+
+import Sequelize from 'sequelize';
 
 const sequelize = process.env.DB_URL
   ? new Sequelize(process.env.DB_URL)
@@ -12,4 +14,4 @@ const sequelize = process.env.DB_URL
       },
     });
 
-module.exports = sequelize;
+export default sequelize;
