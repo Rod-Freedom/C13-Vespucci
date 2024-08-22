@@ -1,8 +1,8 @@
 // import models
-const Product = require('./Product');
-const Category = require('./Category');
-const Tag = require('./Tag');
-const ProductTag = require('./ProductTag');
+import Product from './Product.js';
+import Category from './Category.js';
+import Tag from './Tag.js';
+import ProductTag from './ProductTag.js';
 
 // Products belongsTo Category
 
@@ -12,7 +12,7 @@ const ProductTag = require('./ProductTag');
 
 // Tags belongToMany Products (through ProductTag)
 
-module.exports = {
+export default {
   Product,
   Category,
   Tag,
