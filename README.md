@@ -95,7 +95,11 @@ The Vespucci API is designed to streamline and enhance e-commerce operations wit
 ## Get Started
 *Watch our tutorial [**here**](https://youtu.be/fO3v9G5R15Y).*
 
-Vespucci isn't online yet, so you'll have to run it locally.
+<br>
+
+> **IMPORTANT |** ***Vespucci** isn't online yet, so you'll have to run it locally.*
+
+<br>
 
 Once you have the repo on your computer after running `git clone`, open your command line. Make sure to open the Vespucci repo folder in your terminal. Use `npm i` to install all the modules needed to run ***Vespucci***.
 
@@ -136,27 +140,13 @@ $ npm run seed
 ## Usage
 *Watch our tutorial [**here**](https://youtu.be/fO3v9G5R15Y).*
 
-***Vespucci*** work as any RESTful API. To run it locally, open the Vespucci folder in your terminal, then type `node server.js` or `npm start` and hit `enter`.
-```bash
-$ npm start
-```
+<br>
 
-The first time you run Vespucci, you'll have to provide you PostgreSQL username and password.
-
-```bash
-Welcome! You need to set your user first.
-? Whats your PostgreSQL username? user
-? Type your PostgreSQL password **********
-? Please confirm your password **********
-Wait a sec, Vespucci is doing its magic!
-✔ Creating your database...
-✔ Creating tables...
-All set! Please rerun Vespucci!
-```
+> **IMPORTANT |** ***Vespucci** isn't online yet, so you'll have to run it locally.*
 
 <br>
 
-After that, run `npm start` again, and you're ready to start puppeteering your databases!
+***Vespucci*** works as any RESTful API. To run it locally, open the Vespucci folder in your terminal, then type `node server.js` or `npm start` and hit `enter`.
 ```bash
 $ npm start
 ```
